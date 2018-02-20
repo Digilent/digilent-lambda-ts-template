@@ -1,0 +1,24 @@
+{
+  "name": "@<organizationName>/<lambdaFunctionName>",
+  "version": "0.0.0",
+  "description": "<description>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "clean": "rm -rf dist && rm -rf bundle",
+    "build": "npm run clean && tsc && webpack bundleHelper.js ./bundle/<lambdaFunctionName>.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "<organizationName>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "typescript": "2.0.10",
+    "webpack": "^3.5.3"
+  },
+  "dependencies": {}
+}
