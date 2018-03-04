@@ -9,7 +9,8 @@ FILES="index.js"
 #  FILES="$FILES $f"  
 #done
 
-
+#Add Node Modules
+FILES="$FILES node_modules"  
 
 #Add files in ./bundle
 FILES="$FILES bundle"  
