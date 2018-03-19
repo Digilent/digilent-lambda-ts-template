@@ -8,7 +8,7 @@ This template provides a starting point for creating AWS Lambda functions using 
 3. Run `npm install` 
 4. Add TypeScript source in the generated **src/<modulename>.ts**
 5. Use TypeScript class in Lambda handler in **index.js**
-6. Run `node run build` to build the lambda funciton.
+6. Run `node run build` to build the lambda function.
 
 #### Generated Files
 * **index.js**

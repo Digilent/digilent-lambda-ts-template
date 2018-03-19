@@ -10,7 +10,7 @@ FILES="index.js"
 #done
 
 #Add Node Modules
-FILES="$FILES node_modules"  
+#FILES="$FILES node_modules"  
 
 #Add files in ./bundle
 FILES="$FILES bundle"  

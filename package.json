@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build",
     "clean": "rm -rf dist && rm -rf bundle",
-    "build": "npm run clean && tsc && webpack bundleHelper.js ./bundle/<lambdaFunctionName>.js"
+    "build": "npm run clean && tsc && webpack"
   },
   "repository": {
     "type": "git",
