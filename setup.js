@@ -13,7 +13,8 @@ var filesToUpdate = [
     './tsconfig.json',
     './index.js',
     './bundleHelper.js',
-    './push.sh'
+    './push.sh',
+    './webpack.config.js'
 ];
 
 function getUserInput(key, prompt) {
